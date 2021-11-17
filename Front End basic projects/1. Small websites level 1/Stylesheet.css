@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+/* Styling the Header */
+.header{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+}
+/* style the top nav */
+.topnav{
+    overflow: hidden;
+    background-color: #333;
+}
+/* style the top nav links */
+.topnav a {
+    color: #f2f2f2;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* we are changing color on hover */
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create three equal column */
+
+.column{
+    float: left;
+    padding: 10px;
+}
+/* left and right column */
+.column.side {
+    width: 25%;
+}
+/* middle column and main content */
+.column.middle{
+    width: 50%;
+}
+/* Clear floats after the column so footer go below */
+.row:after {
+    content: "";
+    display:table;
+    clear: both;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px){
+    .column.side, .column.middle {
+        width: 100%;
+    }
+    
+}
+.footer{
+    text-align: center;
+    background-color: #f1f1f1;
+}
