@@ -1,0 +1,5 @@
+
+Simple tab one page site.
+
+1- we understand floating left concept of three div containers,
+2- very simple box-sizing property for margin ,width, height, length.
